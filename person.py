@@ -14,11 +14,11 @@ class TestMethods(unittest.TestCase):
 
     def test_adam(self):
         adam = Person('Adam',19)
-        self.assertEquals(adam.__str__, 'Adam, 19 years old')
+        self.assertEquals(str(adam), 'Adam, 19 years old')
 
     def test_richard(self):
         richard = Person('Richard',22)
-        self.assertEquals(richard.__str__, 'Richard, 22 years old')
+        self.assertEquals(str(richard), 'Richard, 22 years old')
 
     def test_amount(self):
         self.assertEquals(Person.amount, 2)

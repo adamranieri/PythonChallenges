@@ -2,8 +2,9 @@ import unittest
 
 # in baseball an inning has 3 outs (technically 6 because it is two half innings)
 # a pitcher who has pitched 2 innings has been in the game for 6 outs
-# in baseball record keeping decimals are used if the pithcer is replaced mid inning
+# in baseball record keeping, decimals are used if the pithcer is replaced mid inning
 # a pitcher who pitched 3.2 innings has been in the game for 11 outs
+# 3*3 +2 = 11         three full innings plus two extra outs = 11 total outs
 # write a function that takes in the innings and gives back the total outs
 
 class InvalidInnning(Exception):
